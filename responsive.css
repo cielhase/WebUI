@@ -136,8 +136,13 @@ h2.aboutWords {
 	padding: 15px;
 }
 
-.LOGO_BLACK {
+.HOME_ICON {
+	width: 47px;
+	height: auto;
+	padding: 15px;
 }
+
+
 
 img.CLOCK_ICON:hover { 
 	animation: jello 1s linear infinite;
@@ -151,9 +156,16 @@ img.HEART_ICON:hover {
 	animation: jello 1s linear infinite;
 }
 
+img.HOME_ICON: hover {
+	animation: jello 1s linear infinite;
+}
+
 img.LOGO_BLACK: hover {
 	animation: jello 1s linear infinite;
 }
+
+
+
 
 @keyframes jello {
   from, 11.1%, to {
